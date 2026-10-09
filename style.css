@@ -1,0 +1,85 @@
+/* ---------- Colours (change them here and the whole site updates) ---------- */
+:root {
+  --black: #000000;
+  --panel: #141414;
+  --gold: #d4af37;
+  --gold-light: #f0d675;
+  --text: #f2ede0;
+}
+
+/* ---------- Base ---------- */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+  line-height: 1.7;
+  background-color: var(--black);
+  color: var(--text);
+}
+
+h1,
+h2 {
+  color: var(--gold);
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+/* ---------- Header and footer ---------- */
+header,
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: var(--panel);
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+}
+
+/* ---------- Sections ---------- */
+section {
+  background-color: var(--panel);
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--gold-light);
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--gold-light);
+  outline-offset: 3px;
+}
+
+/* ---------- Profile photo (for later) ---------- */
+img.avatar {
+  display: block;
+  max-width: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  margin: 0 auto 15px auto;
+}
