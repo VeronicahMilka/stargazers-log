@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A personal portfolio website built to showcase my skills and projects as I grow into a full stack developer.
+I am a software engineering student ready to learn and connect with people in tech .This is a personal portfolio website built to showcase my skills and projects as I grow into a full stack developer.
 
 ## Features
 - About Me and Skills sections
