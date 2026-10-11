@@ -135,3 +135,32 @@ body { background: var(--black); color: var(--white); }
   }
   .nav-links.open { display: flex; }
 }
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #0a0a0a;
+  color: #fff;
+  padding: 2rem;
+  animation: fadeIn 1s ease-in;
+}
+.hero-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #d4af37;
+  margin-bottom: 1.5rem;
+}
+.hero h1 { font-size: clamp(2.2rem, 6vw, 4rem); }
+.gold { color: #d4af37; }
+.tagline { color: #ccc; margin: 1rem 0 2rem; }
+.hero-buttons { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+.btn { padding: 0.8rem 1.8rem; border-radius: 4px; text-decoration: none; font-weight: 600; }
+.btn-solid { background: #d4af37; color: #0a0a0a; }
+.btn-outline { border: 2px solid #d4af37; color: #d4af37; }
+.btn:hover { opacity: 0.85; transform: translateY(-2px); transition: 0.2s; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
